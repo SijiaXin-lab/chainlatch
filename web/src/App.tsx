@@ -1,4 +1,5 @@
 import './App.css'
+import WalletConnect from './WalletConnect'
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
           Explore the project
         </a>
       </section>
+
+      <WalletConnect />
 
       <section id="protections" className="protections">
         <p className="eyebrow">WHAT WE ARE BUILDING</p>
@@ -59,8 +62,9 @@ function App() {
       <aside className="status" aria-labelledby="status-title">
         <h2 id="status-title">Development status</h2>
         <p>
-          Early prototype. Wallet connection and transfer protection
-          are not active yet.
+          Early prototype. Wallet connection is available for testing.
+          Transfer verification and on-chain enforcement are not
+          implemented yet.
         </p>
       </aside>
 
